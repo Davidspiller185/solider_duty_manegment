@@ -1,15 +1,17 @@
+
 def dic_solder():
-    dic_solider={"id":int,
-                 "name":str,
-                 "duties":list}
+    dic_solider={"id":None,
+                 "name":"",
+                 "duties":[]}
     return dic_solider
 
 def dic_shifts():
-    dic_shift={"name":str,
-               "day":str,
-               "status":str}
+    dic_shift={"name":"",
+               "day":"",
+               "status":""}
     return dic_shift
 
+lst_solider=[]
 def lst_solder():
-    lst_solider=[]
     return lst_solider
+
